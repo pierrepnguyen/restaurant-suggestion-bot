@@ -2,7 +2,7 @@
 Restaurants Search Bot using Bot Builder Framework & Yelp API
 
 ## Screens
-![ScreenShot](./ui_1.PNG) ![ScreenShot](./ui_2.PNG) !
+![ScreenShot](./ui_screen_1.PNG) ![ScreenShot](./ui_screen_2.PNG) !
 
 ## Demo
 Check out the demo
