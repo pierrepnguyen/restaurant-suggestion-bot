@@ -1,41 +1,32 @@
-# Complex Dialog Sample
+# Restaurant Search Bot
+Restaurants Search Bot using Bot Builder Framework & Yelp API
 
-This sample creates a complex conversation with dialogs.
+## Screens
+![ScreenShot](./ui_1.PNG) ![ScreenShot](./ui_2.PNG) !
 
-## To try this sample
+## Demo
+Check out the demo
+- using [Bot Framework Emulator ](https://drive.google.com/file/d/1DLzDwjPa9hGLjwlgbm9023--rD0UBeyE/view?usp=sharing)
 
-- Clone the repository
-```bash
-git clone https://github.com/Microsoft/botbuilder-samples.git
-```
-- In a terminal, navigate to `botbuilder-samples\samples\python\43.complex-dialog` folder
-- Activate your desired virtual environment
-- In the terminal, type `pip install -r requirements.txt`
-- Run your bot with `python app.py`
+## Features
+- User can search top-rated restaurants
+- User can search restaurants using location and cuisine
 
-## Testing the bot using Bot Framework Emulator
+## Prerequisites
+- Yelp API Key for searching the Restaurants, you can get it [here](https://www.yelp.com/developers/documentation/v3/authentication)
+- Microsoft Bot Builder Framework, check the details [here](https://docs.microsoft.com/en-us/azure/bot-service/python/bot-builder-python-quickstart?view=azure-bot-service-4.0#create-a-bot) check the repository [here](https://github.com/microsoft/BotBuilder-Samples)
 
-[Bot Framework Emulator](https://github.com/microsoft/botframework-emulator) is a desktop application that allows bot developers to test and debug their bots on localhost or running remotely through a tunnel.
-
-- Install the latest Bot Framework Emulator from [here](https://github.com/Microsoft/BotFramework-Emulator/releases)
-
-### Connect to the bot using Bot Framework Emulator
-
-- Launch Bot Framework Emulator
-- File -> Open Bot
-- Enter a Bot URL of `http://localhost:3978/api/messages`
-
-## Deploy the bot to Azure
-
-To learn more about deploying a bot to Azure, see [Deploy your bot to Azure](https://aka.ms/azuredeployment) for a complete list of deployment instructions.
-
-## Further reading
-
-- [Bot Framework Documentation](https://docs.botframework.com)
-- [Bot Basics](https://docs.microsoft.com/azure/bot-service/bot-builder-basics?view=azure-bot-service-4.0)
-- [Activity processing](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-concept-activity-processing?view=azure-bot-service-4.0)
-- [Azure Bot Service Introduction](https://docs.microsoft.com/azure/bot-service/bot-service-overview-introduction?view=azure-bot-service-4.0)
-- [Azure Bot Service Documentation](https://docs.microsoft.com/azure/bot-service/?view=azure-bot-service-4.0)
-- [Azure CLI](https://docs.microsoft.com/cli/azure/?view=azure-cli-latest)
-- [Azure Portal](https://portal.azure.com)
-- [Channels and Bot Connector Service](https://docs.microsoft.com/en-us/azure/bot-service/bot-concepts?view=azure-bot-service-4.0)
+## How to use
+- Clone the repo
+- add the YELP API key to `yelpAPI.py` file
+- open the terminal in the project directory and run the below commands
+  - > pip install -r requirements.txt
+  - Once the requirements have been installed you can start up the app
+  - > python app.py
+  - Start the Emulator and connect the bot
+  - > http://localhost:3978/api/messages
+  
+  
+  
+  
+ **Note**: *While developing this bot, I had issues with the Yelp API. The features aren't currently on this repo. Please check back for the updated repository.*
