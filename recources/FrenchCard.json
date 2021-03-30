@@ -1,0 +1,60 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "speak": "Cafe Presse is a French restaurant which is rated 4.0 by customers.",
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": 2,
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "FRENCH"
+            },
+            {
+              "type": "TextBlock",
+              "text": "Cafe Presse",
+              "weight": "bolder",
+              "size": "extraLarge",
+              "spacing": "none"
+            },
+            {
+              "type": "TextBlock",
+              "text": "4.0 ★★★☆ (1157) · $$",
+              "isSubtle": true,
+              "spacing": "none"
+            },
+            {
+              "type": "TextBlock",
+              "text": "**MiChael Macnab said** \"Simple and authentic french fair in a gorgeous venue. The back room is bright and calm and beautiful. There are great veg and vegan dishes as much as traditional protein based dishes\"",
+              "size": "small",
+              "wrap": true
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": 1,
+          "items": [
+            {
+              "type": "Image",
+              "url": "https://s3-media0.fl.yelpcdn.com/bphoto/jZtu4z1O-KnZS6Q1mUmRpA/o.jpg",
+              "size": "auto"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.OpenUrl",
+      "title": "More Info",
+      "url": "https://www.yelp.com/biz/caf%C3%A9-presse-seattle-2"
+    }
+  ]
+}

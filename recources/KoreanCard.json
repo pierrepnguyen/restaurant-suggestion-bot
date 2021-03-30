@@ -1,0 +1,60 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "speak": "Tom's Pie is a pizza restaurant which is rated 9.3 by customers.",
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": 2,
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "PIZZA"
+            },
+            {
+              "type": "TextBlock",
+              "text": "Tom's Pie",
+              "weight": "bolder",
+              "size": "extraLarge",
+              "spacing": "none"
+            },
+            {
+              "type": "TextBlock",
+              "text": "4.5 ★★★☆ (75) · $$",
+              "isSubtle": true,
+              "spacing": "none"
+            },
+            {
+              "type": "TextBlock",
+              "text": "**Katie H. said** \"Very good. Feels like a hidden gem. We would recommend this restaurant and we would come back\"",
+              "size": "small",
+              "wrap": true
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": 1,
+          "items": [
+            {
+              "type": "Image",
+              "url": "https://s3-media0.fl.yelpcdn.com/bphoto/vE9ZF-Ns-NZUWU-t8xcccg/o.jpg",
+              "size": "auto"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.OpenUrl",
+      "title": "More Info",
+      "url": "https://www.yelp.com/biz/kitchen-remix-federal-way"
+    }
+  ]
+}

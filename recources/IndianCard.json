@@ -1,0 +1,60 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "speak": "Kanishka Cuisine of India is an Indian restaurant which is rated 4.2 by customers.",
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": 2,
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "INDIAN"
+            },
+            {
+              "type": "TextBlock",
+              "text": "Kanishka Cuisine of India",
+              "weight": "bolder",
+              "size": "extraLarge",
+              "spacing": "none"
+            },
+            {
+              "type": "TextBlock",
+              "text": "4.2 ★★★☆ (898) · $$",
+              "isSubtle": true,
+              "spacing": "none"
+            },
+            {
+              "type": "TextBlock",
+              "text": "**Shaedyn M. said** \"Although it's a little way away from my place, this is my favorite Indian spot I've found since living in the Seattle area!\"",
+              "size": "small",
+              "wrap": true
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": 1,
+          "items": [
+            {
+              "type": "Image",
+              "url": "https://s3-media0.fl.yelpcdn.com/bphoto/tXF7q-CezBpcEMPA1u4cnw/o.jpg",
+              "size": "auto"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.OpenUrl",
+      "title": "More Info",
+      "url": "https://www.yelp.com/biz_photos/kanishka-cuisine-of-india-redmond"
+    }
+  ]
+}
