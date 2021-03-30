@@ -4,7 +4,7 @@
   "version": "1.0",
   "body": [
     {
-      "speak": "Tom's Pie is a pizza restaurant which is rated 9.3 by customers.",
+      "speak": "Kitchen Remix is a Korean restaurant which is rated 4.5 by customers.",
       "type": "ColumnSet",
       "columns": [
         {
@@ -13,11 +13,11 @@
           "items": [
             {
               "type": "TextBlock",
-              "text": "PIZZA"
+              "text": "KOREAN"
             },
             {
               "type": "TextBlock",
-              "text": "Tom's Pie",
+              "text": "Kitchen Remix",
               "weight": "bolder",
               "size": "extraLarge",
               "spacing": "none"
